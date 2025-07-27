@@ -5,12 +5,13 @@ Hobuild - GUI!
 
 Program for creating a sample ```build.hob``` in the selected directory.
 
-How to build!?
+**How to build?**
 ``` sh
-g++ main.cpp -o hobuild-gui -std=c++17 -lnana -lX11 -lXft -lXcursor
+chmod +x build.sh
+./build.sh
 ```
 
-How to install!?
+**How to install?**
 AUR (ArchLinux):
 ``` sh
 yay -S hobuild-gui
@@ -18,5 +19,5 @@ yay -S hobuild-gui
 
 Any unix systems:
 ```
-sudo cp hobuild-gui /usr/bin/hobuild-gui
+cp hobuild-gui /usr/bin/hobuild-gui
 ```
